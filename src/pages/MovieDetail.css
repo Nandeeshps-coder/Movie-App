@@ -1,0 +1,49 @@
+.movie-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.movie-trailer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.movie-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-poster {
+  margin-bottom: 20px;
+}
+
+.movie-poster img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.movie-info {
+  max-width: 600px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .movie-detail {
+    padding: 10px;
+  }
+
+  .movie-trailer iframe {
+    height: 300px;
+  }
+
+  .movie-poster img {
+    width: 100%;
+  }
+
+  .movie-info {
+    max-width: 100%;
+  }
+}
